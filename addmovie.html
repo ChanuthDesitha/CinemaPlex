@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/adduser.css">
+    <title>Add Movie</title>
+</head>
+
+<body>
+    <h1>Add Movie</h1>
+    <form action="addmovie.php" method="POST" enctype="multipart/form-data">
+
+        <label for="movieID">Movie ID:</label>
+        <input type="number" id="movieID" name="movieID" placeholder="Enter movieID" required>
+
+        <label for="movieName">Movie Name:</label>
+        <input type="text" id="movieName" name="movieName" placeholder="Enter Movie Name" required>
+
+        <label for="genre">Genre:</label>
+        <input type="text" id="genre" name="genre" placeholder="Enter Genre" required><br><br>
+
+        <label for="directorName">Director Name:</label>
+        <input type="text" id="directorName" name="directorName" placeholder="Enter Director Name" required>
+
+        <label for="releseDate">Relese Date:</label>
+        <input type="date" id="releseDate" name="releseDate" required>
+
+        <label for="duration">Duration:</label>
+        <input type="text" id="duration" name="duration" placeholder="Enter Duration" required>
+
+        <label for="showTime">Show Time:</label>
+        <input type="text" id="showTime" name="showTime" placeholder="Enter Show Time" required>
+
+        <label for="about">About:</label>
+        <input type="text" id="about" name="about" placeholder="Enter About" required>
+
+        <label for="img">Image:</label>
+        <input type="file" id="img" name="img" required>
+
+        <br><br>
+        <button type="submit">Add</button>
+
+    </form>
+</body>
+
+</html>

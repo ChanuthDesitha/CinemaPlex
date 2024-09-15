@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/register.css">
+    <title>Registration Form</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <nav class="top-right-nav">
+                <li><a href="index.php" id="home-link">Home</a></li>
+                <li><a href="booking.php" id="tickets-link">Tickets</a></li>
+                <li><a href="contact.html" id="contact-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <form method="post" action="adminregister.php">
+            <h2>Admin Registration Form</h2>
+            <label for="adminID">Admin ID:</label>
+            <input type="number" id="adminID" name="adminID" placeholder="Enter Admin ID" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Email" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter Password" required>
+            
+            <br><br>
+            <button type="submit">Register</button>
+
+        </form>
+
+    </div>
+
+    <footer>
+        <div class="footer-content">
+
+            <div class="footer-links">
+                <ul>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="booking.php">Booking</a></li>
+                    <li><a href="Privacy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-social">
+                <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.whatsapp.com"><i class="fa">&#xf232;</i></i></a>
+                <a href="https://www.youtube.com"><i class="fa">&#xf16a;</i></a>
+            </div>
+
+            <div class="footer-info">
+                &copy; 2023 CinemaPlex."
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
